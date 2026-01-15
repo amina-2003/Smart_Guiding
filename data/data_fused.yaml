@@ -1,1 +1,40 @@
+names:
+- ashcan
+- bicycle
+- blind_road
+- bus
+- car
+- crosswalk
+- dog
+- fire_hydrant
+- green_light
+- motorcycle
+- person
+- pole
+- red_light
+- reflective_cone
+- roadblock
+- sign
+- tree
+- tricycle
+- truck
+- warning_column
+- chair
+- couch
+- potted plant
+- bed
+- dining table
+- toilet
+- tv
+- laptop
+- microwave
+- oven
+- toaster
+- sink
+- refrigerator
+- book
+- clock
+- vase
+train: /content/dataset_fused/train/images
+val: /content/dataset_fused/train/images
 
