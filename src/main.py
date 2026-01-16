@@ -12,9 +12,9 @@ except ImportError:
 if __name__ == "__main__":
     import os
 
-    VIDEO_PATH = "C:\\Users\\MSI\\Documents\\AMINA\\Computer_vision\\Lunettes\\video15.mp4" 
-    MODEL_PATH = "C:\\Users\\MSI\\Documents\\AMINA\\Computer_vision\\Lunettes\\assistive_yolo_best.pt"
-    OUTPUT_PATH = "C:\\Users\\MSI\\Documents\\AMINA\\Computer_vision\\Lunettes\\resultat_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".mp4"
+    VIDEO_PATH = "../vieos/video15.mp4" 
+    MODEL_PATH = "../models/assistive_yolo_best.pt"
+    OUTPUT_PATH = "../videos/resultat_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".mp4"
 
     ACTIVER_VOIX = False
     VITESSE_VOIX = 180
@@ -36,3 +36,4 @@ if __name__ == "__main__":
         exit(1)
 
     traiter_video(VIDEO_PATH, MODEL_PATH, OUTPUT_PATH, afficher=True, vocal=ACTIVER_VOIX, vitesse_voix=VITESSE_VOIX)
+
